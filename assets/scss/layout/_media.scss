@@ -1,5 +1,10 @@
 @media (max-width:800px) {
     
+    .container{
+        padding-left: 36px;
+        padding-right: 36px;
+        }
+
     .card{
         width: 50%;
     }
@@ -12,13 +17,15 @@
         width: 40px;
         margin-left:20px;
     }
-
+    
 }
 
 
 @media (max-width:600px) {
     .container {
         max-width: 100%;
+        padding-left: 12px;
+        padding-right: 12px;
     }
 
     .header{

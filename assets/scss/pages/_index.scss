@@ -23,6 +23,10 @@ h1{
   font-size: 24px;
 }
 
+.h4{
+  font-size: 20px;
+}
+
 .area{
   align-items: center;
 }
@@ -32,11 +36,11 @@ select{
  border: 1px solid #CED4DA;
  margin-left: 16px;
  padding: 6px 12px;
- cursor: pointer;
+ font-size: 18px;
 }
 
 .custom-select {
-  background-image: url("../assets/images/arrow_drop_down_24dp.png");
+  background-image: url("/assets/images/arrow_drop_down_24dp.png");
   background-position: right 0.5em top 50%, 0 0;
   background-size: contain, cover;
   background-repeat: no-repeat, repeat;
