@@ -1,4 +1,43 @@
+a{
+  color:white;
+  text-decoration: none;
+}
+
+a:hover{
+  color:black;
+}
+
+.container{
+  max-width: 1320px;
+  margin:0 auto;
+  padding: 0 12px;
+}
+
+.d-flex{
+  display:flex;
+}
+
+.bg-red{
+  background-color: #aa0601;
+}
+
 .header{
-  background: #69F0AE;
-  font-size: 64px;
+  justify-content: space-between;
+  margin-bottom: 96px;
+}
+
+.logo{
+  width: 80px;
+  padding: 16px 0;
+}
+
+.header .nav{
+  width:492px;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+}
+
+.pd-b{
+  padding-bottom: 32px;
 }

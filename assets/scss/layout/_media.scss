@@ -1,0 +1,115 @@
+@media (max-width:800px) {
+    
+    .card{
+        width: 50%;
+    }
+
+    .footer .nav li{
+        margin-right:28px;
+    }
+
+    .footer .right img{
+        width: 40px;
+        margin-left:20px;
+    }
+
+}
+
+
+@media (max-width:600px) {
+    .container {
+        max-width: 100%;
+    }
+
+    .header{
+        flex-direction: column;
+        margin-bottom: 40px;
+        padding: 0px;
+    }
+
+    .logo{
+        width: 80px;
+        margin: 0 16px;
+    }
+
+    .header .nav{
+        width:100%;
+        flex-wrap: wrap;
+    }
+
+    .nav a{
+        font-size: 16px;
+    }
+
+    .nav li{
+        width:50%;
+        border: 1px solid white;
+        text-align: center;
+        padding:12px 0;
+    }
+
+    h1{
+        font-size: 24px;
+    }
+
+    .area .h3{
+        font-size: 16px;
+    }
+
+    select {
+        font-size: 18px;
+        max-width: 70%;
+        margin-left:8px;
+    }
+
+    .colum {
+        margin-bottom: 40px;
+    }
+
+    .card{
+        width:100%;
+        margin-bottom: 24px;
+    }
+
+    .footer .nav {
+        display: none;
+    }
+
+    .footer .right img{
+        width: 24px;
+        margin-left:8px;
+    }
+
+    .contact {
+        font-size: 14px;
+    }
+
+
+    .contact img{
+        width: 20px;
+        margin-right: 10px;
+    }
+
+    .copyright{
+        flex-direction: column;
+    }
+
+    .privacy{
+        margin-left: 0;
+        margin-bottom: 24px;
+    }
+
+    .privacy ul{
+        flex-direction: column;
+    }
+
+    .privacy li{
+        padding-left: 0px;
+        padding-bottom: 8px;
+    }
+
+    .text{
+        padding-bottom: 8px;
+    }
+
+}

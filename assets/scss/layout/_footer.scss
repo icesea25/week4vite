@@ -1,4 +1,43 @@
-.footer{
-  background: #69F0AE;
-  font-size: 64px;
+.footer {
+  color: white;
+  padding-top: 60px;
+}
+
+.footer .top{
+  justify-content: space-between;
+  border-bottom: 1px solid white;
+  margin-bottom: 32px;
+}
+
+.footer .right img{
+  width:48px;
+  margin-left:32px;
+}
+
+.footer .nav{
+  font-size: 16px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer .nav li{
+  margin-right:48px;
+}
+
+.contact img{
+  width:36px;
+  margin-right: 22px;
+}
+
+.contact li{
+  padding-bottom: 8px;
+}
+
+.privacy{
+  margin-left:auto;
+}
+
+.privacy li{
+  padding-left:40px;
+  
 }
